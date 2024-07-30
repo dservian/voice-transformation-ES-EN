@@ -48,10 +48,17 @@ outputs = [gr.Textbox(label="Transcripción en Español 🇪🇸"),
            gr.Textbox(label="Traducción al Inglés 🇺🇸"),
            gr.Audio(type="filepath", label="Audio Traducido")]
 
+# Define example inputs
+examples = [
+    ["./examples/erizo.mp3"],
+    ["./examples/quimica.mp3"]
+]
+
 gr_interface = gr.Interface(
     fn=process_audio,
     inputs=inputs,
     outputs=outputs,
+    examples=examples,
     title="Transformación de Voz en Español a Inglés 📢",
     description=(
         "Modelos utilizados:\n"
