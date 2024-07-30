@@ -9,7 +9,7 @@ Este proyecto utiliza modelos de inteligencia artificial para transcribir audio 
 - Síntesis de voz (TTS) para generar audio en inglés con clonación de voz
 - Interfaz gráfica de usuario con Gradio
 
-![Screenshot](./media/screenshot.png)
+![Screenshot](./media/screenshot.png "Screenshot")
 
 ## Requisitos Previos
 
