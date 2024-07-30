@@ -1,0 +1,11 @@
+gradio
+librosa
+numpy
+soundfile
+torch
+transformers
+TTS==0.22.0
+kenlm
+pyctcdecode
+sentencepiece
+sacremoses
